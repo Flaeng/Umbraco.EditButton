@@ -1,10 +1,18 @@
 # Umbraco.EditButton
 
+Install using NuGet
+
+```
+Install-Package Flaeng.Umbraco.EditButton
+```
+
+alternatively use Umbraco Packages
+
 A simple edit button that shows up on the frontend when you're allready signed in to the backoffice.
 
 ![Example Image is missing](example.jpg)
 
-If you use ClientDependency just add the following to your <body>
+If you use ClientDependency just add the following to your &lt;body&gt;
 
 ```C#
 @Html.Partial("~/App_Plugins/Flaeng.Umbraco.EditButton/EditButton.cshtml")
