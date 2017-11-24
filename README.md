@@ -6,11 +6,15 @@ A simple edit button that shows up on the frontend when you're allready signed i
 
 If you use ClientDependency just add the following to your <body>
 
+```C#
 @Html.Partial("~/App_Plugins/Flaeng.Umbraco.EditButton/EditButton.cshtml")
+```
 
 If you dont use ClientDendency add the line above and the following
 
+```HTML
 <link rel="stylesheet" href="/App_Plugins/Flaeng.Umbraco.EditButton/styles.css" />
+```
 
 The edit-icon is made by Umar Irshad
 
