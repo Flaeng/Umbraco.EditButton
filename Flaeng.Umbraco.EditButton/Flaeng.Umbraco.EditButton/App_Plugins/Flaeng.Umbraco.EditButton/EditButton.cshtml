@@ -1,6 +1,7 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using ClientDependency.Core.Mvc
 @using Umbraco.Core.Security;
-@{ 
+@{
     HttpContextBase wrapper = new HttpContextWrapper(HttpContext.Current);
     UmbracoBackOfficeIdentity user = wrapper.GetCurrentIdentity(true);
     bool isUmbracoLoggedIn = user != null;
@@ -14,7 +15,7 @@
             <img src="/Umbraco/assets/img/application/logo.png" width="24" height="24" />
         </a>
         <a href="/umbraco#/content/content/edit/@(umbNodeId)" target="_blank">
-            <img src="/App_Plugins/Flaeng.EditButton/edit.png" width="24" height="24" />
+            <img src="/App_Plugins/Flaeng.Umbraco.EditButton/edit.png" width="24" height="24" />
         </a>
     </div>
 }
