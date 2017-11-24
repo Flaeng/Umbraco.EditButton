@@ -1,0 +1,12 @@
+﻿
+#editbutton-container {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999999;
+    padding:4px;
+    background:#f5f5f5;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-bottom-right-radius: 5px;
+}

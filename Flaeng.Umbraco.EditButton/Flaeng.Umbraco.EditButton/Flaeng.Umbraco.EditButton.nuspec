@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$-beta1</version>
+    <title>$title$</title>
+    <authors>Dennis Flæng</authors>
+    <owners>Dennis Flæng</owners>
+    <licenseUrl>https://github.com/Flaeng/Umbraco.EditButton/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Flaeng/Umbraco.EditButton</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple edit button that shows up on the frontend when you're allready signed in to the backoffice</description>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+  </metadata>
+</package>
