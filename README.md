@@ -27,3 +27,11 @@ If you dont use ClientDendency add the line above and the following
 The edit-icon is made by Umar Irshad
 
 https://www.iconfinder.com/icons/290135/draw_edit_pen_pencil_write_icon#size=128
+
+# Known issues
+
+There can be issues with dictionary items on Umbraco 7.X.X.X. The issue and solution are described here:
+
+https://github.com/Flaeng/Umbraco.EditButton/issues/1#event-2710000083 
+
+Thank you to [enkelmedia](https://github.com/enkelmedia) for finding the bug and solution
